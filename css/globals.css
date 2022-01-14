@@ -15,6 +15,12 @@ a,ul,li{
     list-style: none;
     text-decoration: none;
 }
+.active{
+    background-color: #333;
+    padding: 3px 20px;
+    border-radius: 5px;
+    color: white;
+}
 h1{
     text-transform: capitalize;
 }
