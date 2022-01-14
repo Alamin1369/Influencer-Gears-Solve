@@ -1,0 +1,19 @@
+/* all class based styles will be applied here */
+
+.android{
+    display: none;
+}
+.web{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 35px 16px 0;
+}
+.web > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul>li{
+    padding: 0 12px;
+}

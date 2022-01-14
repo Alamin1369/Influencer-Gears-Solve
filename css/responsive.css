@@ -1,0 +1,19 @@
+@media (min-width:320px) and (max-width:668px) {
+    nav.web{
+        display: none;
+    }
+    nav.android{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 35px 16px 0;
+    }
+}
+@media (min-width:669px) and (max-width:1024px) {
+    .web{
+        display: flex;
+    }
+    nav.android{
+        display: none;
+    }
+}
