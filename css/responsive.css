@@ -8,6 +8,21 @@
         align-items: center;
         padding: 35px 16px 0;
     }
+    section.top{
+        flex-direction: column-reverse;
+        padding: 12px;
+        text-align: center;
+    }
+    .top > .top__text{
+        width: 100%;
+    }
+    .top > .top__text > h1{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    div.top__img{
+        width: 100%;
+    }
 }
 @media (min-width:669px) and (max-width:1024px) {
     .web{
@@ -16,4 +31,9 @@
     nav.android{
         display: none;
     }
+    .top > .top__text > h1{
+        font-size: 37px;
+        line-height: 42px;
+    }
+
 }

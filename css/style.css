@@ -17,3 +17,42 @@
 ul>li{
     padding: 0 12px;
 }
+.top{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.top__text{
+    width: 40%;
+}
+.top__text>h1{
+    color: #3A3A3A;
+    font-size: 52px;
+}
+.top__text>p{
+    color: #3A3A3A;
+    text-transform: capitalize;
+    line-height: 25px;
+    margin: 16px 0;
+}
+.top__text>button{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 41px;
+    border: none;
+}
+.top__img{
+    background-image: url(../assets/images/Circle\ design.svg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top__img > img{
+    width: 90%;
+}
