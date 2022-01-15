@@ -23,6 +23,13 @@
     div.top__img{
         width: 100%;
     }
+    .logo__section > .border > .logos{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        align-items: center;
+        justify-items: center;
+    }
 }
 @media (min-width:669px) and (max-width:1024px) {
     .web{
