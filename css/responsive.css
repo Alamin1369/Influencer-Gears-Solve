@@ -96,11 +96,13 @@
     }
     .products__section > .products > .product{
         width: 250px;
-        height: 400px;
     }
     section.products__section {
         margin:0;
         padding: 0;
+   }
+   div.floating__btn{
+       text-align: center;
    }
     .review{
         flex-direction: column;
