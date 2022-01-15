@@ -1,4 +1,7 @@
 @media (min-width:320px) and (max-width:668px) {
+    div.wrapper{
+        padding: 5px;
+    }
     nav.web{
         display: none;
     }
@@ -33,6 +36,8 @@
     .products__section > .products {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .products__section > .products > .product  {
         padding: 0 10px 4px;
@@ -41,6 +46,9 @@
     }
 }
 @media (min-width:669px) and (max-width:1024px) {
+    div.wrapper{
+        padding: 5px;
+    }
     .web{
         display: flex;
     }
@@ -50,6 +58,18 @@
     .top > .top__text > h1{
         font-size: 37px;
         line-height: 42px;
+    }
+    section.products__section {
+        margin:0;
+        padding: 0;
+   }
+     .products__section > .products {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 10px;
+    }
+    div.floating__btn{
+        text-align: center;
     }
 
 }
