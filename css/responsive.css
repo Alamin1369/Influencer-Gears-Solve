@@ -70,6 +70,9 @@
         font-size: 28px;
     }
 }
+
+/*====================== tablet =====================*/
+
 @media (min-width:669px) and (max-width:1024px) {
     div.wrapper{
         padding: 5px;
