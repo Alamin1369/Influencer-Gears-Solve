@@ -21,6 +21,17 @@ a,ul,li{
         border-radius: 5px;
         color: white;
 }
+.pink{
+    color: rgba(224, 44, 110, 0.87);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+}
+/* 
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: right; */
 h1{
         text-transform: capitalize;
 }

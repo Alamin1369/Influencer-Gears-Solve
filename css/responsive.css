@@ -30,6 +30,15 @@
         align-items: center;
         justify-items: center;
     }
+    .products__section > .products {
+        display: flex;
+        flex-direction: column;
+    }
+    .products__section > .products > .product  {
+        padding: 0 10px 4px;
+        width: 250px;
+        height: 415px;
+    }
 }
 @media (min-width:669px) and (max-width:1024px) {
     .web{
