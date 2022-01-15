@@ -1,53 +1,12 @@
 /* all class based styles will be applied here */
 
 
-/*=======================/* 
-Navbar styles
-/*======================== */
-.android{
-    display: none;
-}
-.web{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 35px 16px 0;
-}
-.web > ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-ul>li{
-    padding: 0 12px;
-}
 
-.nav__link{
-    position: relative;
-    padding: 3px 10px;
-    transition: 0.5s;
-}
-.nav__link:hover{
-    background-color: rgba(51, 51, 51, 0.342);
-    border-radius: 5px;
-    color: white;
-}
-.nav__link::after{
-    content: '';
-    position: absolute;
-    background-color: #E02C6D;
-    height: 2px;
-    width: 20%;
-    bottom: 0;
-    left: 0;
-    transition: 0.5s ;
-}
-.nav__link:hover::after{
-    width: 100%;
-}
 /*=======================/* 
 top section styles
 /*======================== */
+
+
 .top{
     margin-top: 50px;
     display: flex;
@@ -87,9 +46,14 @@ top section styles
 .top__img > img{
     width: 90%;
 }
+
+
+
 /*=======================/* 
 logo section styles
 /*======================== */
+
+
 .border {
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
@@ -99,7 +63,7 @@ logo section styles
     margin: 50px auto;
     width: 80%;
 }
-.logos{
+.web.logos{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -107,9 +71,13 @@ logo section styles
     padding: 0;
 }
 
+
+
 /*=======================/* 
 products section styles
 /*======================== */
+
+
 .products__section{
     padding: 20px;
     width: 90%;
@@ -177,9 +145,13 @@ products section styles
     padding: 33px;
 }
 
+
+
 /*=======================/* 
 review section styles
 /*======================== */
+
+
 .review{
     display: flex;
     align-items: center;
