@@ -26,12 +26,23 @@
     div.top__img{
         width: 100%;
     }
-    .logo__section > .border > .logos{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: repeat(3,1fr);
+    .web.logos{
+        display: none;
+    }
+    .android.logos{
+        display: flex;
+        flex-direction: column;
+    }
+    .part__1,.part__2{
+        display: flex;
         align-items: center;
-        justify-items: center;
+        justify-content: space-evenly;
+        padding: 3px;
+    }
+    .android.logos > .part__1 > img , .android.logos >.part__2 > img{ 
+        width: 60px;
+        padding: 3px;
+        margin-top: 5px;
     }
     section.products__section{
         margin-bottom: 0;
@@ -46,6 +57,9 @@
         padding: 0 10px 4px;
         width: 250px;
         height: 415px;
+    }
+    .floating__btn {
+        padding: 10px;
     }
     .review{
         flex-direction: column;
@@ -71,19 +85,24 @@
         font-size: 37px;
         line-height: 42px;
     }
+    .logos > img{
+        padding: 4px;
+    }
+    .products__section > .products {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .products__section > .products > .product{
+        width: 250px;
+        height: 400px;
+    }
     section.products__section {
         margin:0;
         padding: 0;
    }
-     .products__section > .products {
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2,1fr);
-        grid-gap: 10px;
-    }
-    div.floating__btn{
-        text-align: center;
-    }
-        .review{
+    .review{
         flex-direction: column;
     }
     .review .meter img{
